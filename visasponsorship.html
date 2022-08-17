@@ -17,31 +17,22 @@
   <link rel="stylesheet" href="css\style.css">
   <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
 
-
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   <title>RAC InfoTek</title>
 </head>
 <body>
-  <nav id="main-nav">
-    <div class="container">
-      <img src="./imgs/RAC_logo-1.png" alt="RAC_Logo" class="logo">
-      <ul>
-        <li><a href="index.html" class="Current">Home</a></li>
-        <!-- <li><a href="services.html" >Find Work</a></li>  -->
-        <li><a class="mobile" href="services.html" >Services</a></li>
-        <li><a class="mobile" href="blogs.html" >Visa </a></li>
-        <li><a href="https://forms.gle/m9c88c3uMonT5eK36" target="_blank" >Contact Us</a></li>
-      </ul>
-    </div>
-  </nav>
+  <div id="nav-placeholder">
+
+  </div>
 
   <section id="article">
     <div class="container">
       <div class="page-container">
         <article class="card">
-          <img src="./imgs/services/crew-1.jpg" alt="">
+          <img src="./imgs/services/permanent_placement.jpg" alt="">
           
           <h1 class="l-heading">
-            Software Solutions
+            Visa Sponsorship
           </h1>
           <!-- <div class="meta">
             <small>
@@ -50,8 +41,12 @@
             <div class="category category-ent">Entertainment</div>
           </div> -->
           <p>
-            We recognize companies have a large selection of Technology Staffing companies to choose from. RAC InfoTech sets itself apart by focusing on relationships. We want to “extend” the capability and reach of Information Technology to our customers by developing long-term relationships that result in time and cost savings to them.
-            RAC InfoTech’s technology solutions help customers to focus on core competencies, minimize operating costs, and increase operational efficiency. We work with customers at every level of planning, designing, developing, implementation, and operations to assure top technological performance at low costs
+           It is important and crucial to select right partner for 
+           your visa Sponsorship and Employment needs, being an Global Workforce.We at RAC Infotech will assists you through each stage of the visa sponsorship process and provides personalised solutions to international consultants encountering immigration issues.
+           We specialise in assisting our consultants find meaningful employment with top organisations nationally.
+          </p>
+          <p>
+            We adhere to United States Citizenship and Immigration Services (USCIS) and help you to secure various visas such as H1B Visas, F1 Visa (Student Visa) , Optional Practical Training (OPT/OPT-STEM) and Curricular Practical Training (CPT).
           </p>
         
         </article>
@@ -61,7 +56,7 @@
             <li><a href="visasponsorship.html"><i class="fas fa-chevron-right"></i> Visa Sponsorship</a></li>
             <li><a href="training.html"><i class="fas fa-chevron-right"></i> Trainings</a></li>
             <li><a href="hire.html"><i class="fas fa-chevron-right"></i> Hire a Talent</a></li>
-            <li><a href="#"><i class="fas fa-chevron-right"></i> Trainings</a></li>
+            
             <li><a href="softwaresolutions.html"><i class="fas fa-chevron-right"></i> Software Solutions</a></li>
           </ul>
         </aside>
@@ -81,6 +76,11 @@
 
   <!-- Js files for bootstrap -->
   <script src="./css/bootstrap-5.2.0/js/bootstrap.bundle.min.js"></script>
+  <script>
+    $(function(){
+      $("#nav-placeholder").load("nav-bar.html");
+    });
+    </script>
 </body>
 
 </html>

@@ -17,22 +17,13 @@
   <link rel="stylesheet" href="css\style.css">
   <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
 
-
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   <title>RAC InfoTek</title>
 </head>
 <body>
-  <nav id="main-nav">
-    <div class="container">
-      <img src="./imgs/RAC_logo-1.png" alt="RAC_Logo" class="logo">
-      <ul>
-        <li><a href="index.html" class="Current">Home</a></li>
-        <!-- <li><a href="services.html" >Find Work</a></li>  -->
-        <li><a class="mobile" href="services.html" >Services</a></li>
-        <li><a class="mobile" href="blogs.html" >Visa</a></li>
-        <li><a href="https://forms.gle/m9c88c3uMonT5eK36" target="_blank" >Contact Us</a></li>
-      </ul>
-    </div>
-  </nav>
+  <div id="nav-placeholder">
+
+  </div>
 
   <section id="article">
     <div class="container">
@@ -64,7 +55,7 @@
             <li><a href="visasponsorship.html"><i class="fas fa-chevron-right"></i> Visa Sponsorship</a></li>
             <li><a href="training.html"><i class="fas fa-chevron-right"></i> Trainings</a></li>
             <li><a href="hire.html"><i class="fas fa-chevron-right"></i> Hire a Talent</a></li>
-            <li><a href="#"><i class="fas fa-chevron-right"></i> Trainings</a></li>
+            
             <li><a href="softwaresolutions.html"><i class="fas fa-chevron-right"></i> Software Solutions</a></li>
           </ul>
         </aside>
@@ -84,6 +75,11 @@
 
   <!-- Js files for bootstrap -->
   <script src="./css/bootstrap-5.2.0/js/bootstrap.bundle.min.js"></script>
+  <script>
+    $(function(){
+      $("#nav-placeholder").load("nav-bar.html");
+    });
+    </script>
 </body>
 
 </html>
